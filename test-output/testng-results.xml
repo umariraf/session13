@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22347" started-at="2019-08-16T20:11:46Z" finished-at="2019-08-16T20:12:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22347" started-at="2019-08-16T20:11:46Z" finished-at="2019-08-16T20:12:08Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:test.LoginTest@34b7ac2f]" name="launchBrowser" is-config="true" duration-ms="3153" started-at="2019-08-16T20:11:46Z" finished-at="2019-08-16T20:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="validUserShouldBeAbleToLogin()[pri:1, instance:test.LoginTest@34b7ac2f]" name="validUserShouldBeAbleToLogin" duration-ms="2792" started-at="2019-08-16T20:11:49Z" finished-at="2019-08-16T20:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserShouldBeAbleToLogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.LoginTest@34b7ac2f]" name="close" is-config="true" duration-ms="813" started-at="2019-08-16T20:11:52Z" finished-at="2019-08-16T20:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:test.LoginTest@34b7ac2f]" name="launchBrowser" is-config="true" duration-ms="2168" started-at="2019-08-16T20:11:52Z" finished-at="2019-08-16T20:11:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="invalidUserShouldBeAbleToLogin()[pri:2, instance:test.LoginTest@34b7ac2f]" name="invalidUserShouldBeAbleToLogin" duration-ms="12578" started-at="2019-08-16T20:11:55Z" finished-at="2019-08-16T20:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserShouldBeAbleToLogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.LoginTest@34b7ac2f]" name="close" is-config="true" duration-ms="808" started-at="2019-08-16T20:12:07Z" finished-at="2019-08-16T20:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
